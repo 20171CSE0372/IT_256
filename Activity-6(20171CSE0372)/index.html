@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+    <link href="stylesheets/main.css" rel="stylesheet" />
+    <style>
+        body{
+            background-color: rgba(72, 185, 72, 0.5);
+        }
+        header hgroup {
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            margin-left: 400px;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            padding: 29px;
+
+        }
+
+        nav ul li a {
+            list-style-type: none;
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover {
+            color: black;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: rgb(0, 225, 255);
+        }
+
+        nav {
+            background-color: grey;
+        }
+
+        .section {
+            display: flex;
+            width: 100%;
+            height: 400px;
+        }
+
+        .article {
+            width: 80%;
+            background-color: blueviolet;
+        }
+
+        .article article {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .aside {
+            background-color: burlywood;
+            height: 400px;
+            width: 20%;
+        }
+        footer{
+            background-color: grey;
+            padding:15px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <hgroup>
+            <h1>Header</h1>
+            <h3>CSS acitivity-6</h3>
+        </hgroup>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="section">
+        <section class="article">
+            <article>
+                <header>
+                    <h1>Article #1</h1>
+                </header>
+                <section>
+                    This is the first article.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi optio quidem voluptate quas impedit
+                        odit dolore culpa, vero ab aspernatur alias qui dicta sunt iure sapiente, minus perspiciatis
+                        facilis labore sint tempore saepe reiciendis nemo! Harum magni velit dicta, iure ex assumenda
+                        aliquam aut ea commodi vitae voluptatum excepturi? Eum quae incidunt, obcaecati a veritatis
+                        minima delectus asperiores aperiam laudantium quasi, beatae sint in animi facere officia
+                        accusamus. Harum explicabo ut animi magnam aliquam autem voluptatum neque, eveniet voluptate
+                        praesentium quas aperiam asperiores illum temporibus quod deleniti similique, repellat tenetur
+                        nulla in, nisi accusamus tempore exercitationem delectus. Aut, dignissimos quam.</p>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h1>Article #2</h1>
+                </header>
+                <section>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi rem harum, beatae voluptates ut
+                        saepe debitis impedit pariatur! Vitae consequatur perferendis cum similique consequuntur,
+                        nesciunt a eveniet iste. Dolore, nulla.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Sequi rem harum, beatae volupt saepe debitis impedit pariatur! Vitae consequatur perferendis cum
+                        similique consequuntur,</p>
+                </section>
+            </article>
+        </section>
+        <aside class="aside">
+            <h2 style="text-align: center;">Aside</h2>
+            <section>
+                <h1>Links</h1>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
+            </section>
+            <figure>
+                <img width="230" height="200" src="https://images.pexels.com/photos/4004305/pexels-photo-4004305.jpeg?cs=srgb&dl=brown-concrete-building-under-blue-sky-4004305.jpg&fm=jpg" alt="foobar" />
+                <figcaption align='center'>Qurantine days</figcaption>
+            </figure>
+        </aside>
+    </main>
+    <footer >copyrights &copy CSS activity-6</footer>
+</body>
+
+</html>
